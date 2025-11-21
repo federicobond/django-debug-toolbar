@@ -100,6 +100,24 @@ const djdt = {
             });
         });
 
+        $$.on(djDebug, "click", ".djToggleRow", function () {
+            const id = this.dataset.toggleId;
+            const name = this.dataset.toggleName;
+            const container = djDebug.querySelector(`#${name}_${id}`);
+            const isSelected = container.classList.contains("djSelected");
+            container.classList.toggle("djSelected", !isSelected);
+            container.classList.toggle("djUnselected", isSelected);
+
+            for (const el of this.querySelectorAll(".djDebugCollapsed")) {
+                $$.toggle(el, !isSelected);
+            }
+            for (const el of this.querySelectorAll(
+                ".djDebugUncollapsed"
+            )) {
+                $$.toggle(el, isSelected);
+            }
+        });
+
         // Used by the cache, profiling and SQL panels
         $$.on(djDebug, "click", ".djToggleSwitch", function () {
             const id = this.dataset.toggleId;
