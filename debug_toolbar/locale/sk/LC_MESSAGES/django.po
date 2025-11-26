@@ -245,8 +245,8 @@ msgstr "Užívateľský čas CPU"
 
 #: panels/timer.py:46
 #, python-format
-msgid "%(utime)0.3f msec"
-msgstr "%(utime)0.3f msek"
+msgid "%(utime)0.3f ms"
+msgstr "%(utime)0.3f ms"
 
 #: panels/timer.py:47
 msgid "System CPU time"
@@ -254,8 +254,8 @@ msgstr "Systémový čas CPU"
 
 #: panels/timer.py:47
 #, python-format
-msgid "%(stime)0.3f msec"
-msgstr "%(stime)0.3f msek"
+msgid "%(stime)0.3f ms"
+msgstr "%(stime)0.3f ms"
 
 #: panels/timer.py:48
 msgid "Total CPU time"
@@ -263,8 +263,8 @@ msgstr "Celkový čas CPU"
 
 #: panels/timer.py:48
 #, python-format
-msgid "%(total)0.3f msec"
-msgstr "%(total)0.3f msek"
+msgid "%(total)0.3f ms"
+msgstr "%(total)0.3f ms"
 
 #: panels/timer.py:49
 msgid "Elapsed time"
@@ -272,8 +272,8 @@ msgstr "Uplynutý čas"
 
 #: panels/timer.py:49
 #, python-format
-msgid "%(total_time)0.3f msec"
-msgstr "%(total_time)0.3f msek"
+msgid "%(total_time)0.3f ms"
+msgstr "%(total_time)0.3f ms"
 
 #: panels/timer.py:51
 msgid "Context switches"
