@@ -40,19 +40,19 @@
 | debug\_toolbar/panels/staticfiles.py                |       82 |        2 |       22 |        1 |     97% |122-124, 145->144 |
 | debug\_toolbar/panels/templates/\_\_init\_\_.py     |        2 |        0 |        0 |        0 |    100% |           |
 | debug\_toolbar/panels/templates/jinja2.py           |       14 |        0 |        2 |        1 |     94% |  21->exit |
-| debug\_toolbar/panels/templates/panel.py            |      135 |        9 |       42 |        8 |     90% |20->31, 31->39, 42, 158, 162, 175-178, 202-203, 211->217, 212->216 |
+| debug\_toolbar/panels/templates/panel.py            |      134 |        9 |       42 |        8 |     90% |20->31, 31->39, 42, 158, 162, 175-178, 199-200, 207->213, 208->212 |
 | debug\_toolbar/panels/templates/views.py            |       46 |        2 |       10 |        1 |     95% |35->32, 59-60 |
 | debug\_toolbar/panels/timer.py                      |       61 |        5 |       10 |        4 |     85% |11-12, 31-34, 65->67, 82->84, 84->112 |
 | debug\_toolbar/panels/versions.py                   |       42 |        1 |       14 |        1 |     96% |        64 |
 | debug\_toolbar/sanitize.py                          |        6 |        0 |        0 |        0 |    100% |           |
-| debug\_toolbar/settings.py                          |       36 |        2 |        6 |        1 |     93% |   100-101 |
+| debug\_toolbar/settings.py                          |       36 |        2 |        6 |        1 |     93% |    99-100 |
 | debug\_toolbar/store.py                             |      140 |        7 |       14 |        3 |     92% |133-138, 152->exit, 176->exit, 206 |
 | debug\_toolbar/templatetags/\_\_init\_\_.py         |        0 |        0 |        0 |        0 |    100% |           |
 | debug\_toolbar/toolbar.py                           |      140 |        6 |       30 |        1 |     95% |106-114, 161->173, 213-216 |
 | debug\_toolbar/urls.py                              |        4 |        0 |        0 |        0 |    100% |           |
 | debug\_toolbar/utils.py                             |      209 |        7 |       66 |        8 |     95% |30, 61, 121, 125->128, 144->143, 195-196, 200, 215 |
 | debug\_toolbar/views.py                             |       19 |        0 |        2 |        0 |    100% |           |
-|                                           **TOTAL** | **2439** |  **106** |  **606** |   **68** | **94%** |           |
+|                                           **TOTAL** | **2438** |  **106** |  **606** |   **68** | **94%** |           |
 
 
 ## Setup coverage badge
